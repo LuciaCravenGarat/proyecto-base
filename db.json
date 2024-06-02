@@ -1,0 +1,107 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Lucia",
+      "apellido": "nuevo apellido",
+      "id": "1"
+    },
+    {
+      "id": "2e9f"
+    },
+    {
+      "id": "cd6d"
+    },
+    {
+      "id": "5403",
+      "nombre": "Lucia",
+      "apellido": "nuevo apellido"
+    },
+    {
+      "id": "5b7e",
+      "nombre": "Ana",
+      "apellido": "nuevo apellido"
+    },
+    {
+      "id": "65d7",
+      "nombre": "Ana",
+      "apellido": "Perez"
+    },
+    {
+      "id": "e3d5",
+      "nombre": "Ana",
+      "apellido": "Perez"
+    },
+    {
+      "id": "b14b",
+      "nombre": "Ana",
+      "apellido": "Perez"
+    },
+    {
+      "id": "d3dd",
+      "nombre": "Ana",
+      "apellido": "Perez"
+    },
+    {
+      "id": "e9fc",
+      "nombre": "Ana",
+      "apellido": "Perez"
+    },
+    {
+      "id": "ec85",
+      "nombre": "Ana",
+      "apellido": "Perez"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Bicicleta de Montaña",
+      "marca": "Trek",
+      "precio": 1200,
+      "descripcion": "Una bicicleta robusta y versátil ideal para el ciclismo de montaña.",
+      "imagen": "url_de_imagen_montaña.jpg",
+      "categoria": "Montaña",
+      "stock": 10
+    },
+    {
+      "id": "2",
+      "nombre": "Bicicleta de Ruta",
+      "marca": "Giant",
+      "precio": 1500,
+      "descripcion": "Ligera y rápida, perfecta para ciclismo de carretera.",
+      "imagen": "url_de_imagen_ruta.jpg",
+      "categoria": "Ruta",
+      "stock": 8
+    },
+    {
+      "id": "3",
+      "nombre": "Bicicleta Eléctrica",
+      "marca": "Specialized",
+      "precio": 2500,
+      "descripcion": "Bicicleta eléctrica con asistencia al pedaleo, ideal para la ciudad.",
+      "imagen": "url_de_imagen_electrica.jpg",
+      "categoria": "Eléctrica",
+      "stock": 5
+    },
+    {
+      "id": "4",
+      "nombre": "Bicicleta de Gravel",
+      "marca": "Cannondale",
+      "precio": 1800,
+      "descripcion": "Perfecta para aventuras en caminos de grava y terrenos mixtos.",
+      "imagen": "url_de_imagen_gravel.jpg",
+      "categoria": "Gravel",
+      "stock": 7
+    },
+    {
+      "id": "5",
+      "nombre": "Bicicleta Urbana",
+      "marca": "Bianchi",
+      "precio": 900,
+      "descripcion": "Ideal para moverse por la ciudad con estilo y comodidad.",
+      "imagen": "url_de_imagen_urbana.jpg",
+      "categoria": "Urbana",
+      "stock": 15
+    }
+  ]
+}
