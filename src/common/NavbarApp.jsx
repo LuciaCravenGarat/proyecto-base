@@ -18,6 +18,9 @@ const NavbarApp = () => {
             <NavLink className="nav-link" to="/login">
               Login
             </NavLink>
+            <NavLink className="nav-link" to="/admin/addProduct">
+              Add Product
+            </NavLink>
         
         </Nav>
     </Navbar>

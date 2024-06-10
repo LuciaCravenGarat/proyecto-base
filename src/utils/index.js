@@ -1,6 +1,6 @@
-const urlUsuarios = "http://localhost:3000/usuarios";
+const urlUsuarios = "http://localhost:3000/users";
 
-const urlProductos = "http://localhost:3000/productos";
+const urlProductos = "http://localhost:3000/products";
 
 import axios from 'axios';
 

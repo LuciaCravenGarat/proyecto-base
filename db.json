@@ -1,4 +1,44 @@
 {
-    "users":[],
-    "products":[]
+  "users": [
+    {
+      "id": "34cb",
+      "user": "Lucia",
+      "password": "mama",
+      "email": "lucia@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "e5cf",
+      "name": "mate",
+      "description": "vlwjrq",
+      "price": "52",
+      "src": "https://image.ondacero.es/clipping/cmsimages02/2020/01/31/21C9632F-8DB0-4A03-A3AA-EBE172CC1DA0/103.jpg?crop=1080,810,x100,y0&width=1200&height=900&optimize=low&format=webply",
+      "category": "cafeteria"
+    },
+    {
+      "id": "a97c",
+      "name": "mate",
+      "description": "vlwjrq",
+      "price": "52",
+      "src": "https://image.ondacero.es/clipping/cmsimages02/2020/01/31/21C9632F-8DB0-4A03-A3AA-EBE172CC1DA0/103.jpg?crop=1080,810,x100,y0&width=1200&height=900&optimize=low&format=webply",
+      "category": "cafeteria"
+    },
+    {
+      "id": "7557",
+      "name": "mate",
+      "description": "vlwjrq",
+      "price": "52",
+      "src": "https://image.ondacero.es/clipping/cmsimages02/2020/01/31/21C9632F-8DB0-4A03-A3AA-EBE172CC1DA0/103.jpg?crop=1080,810,x100,y0&width=1200&height=900&optimize=low&format=webply",
+      "category": "cafeteria"
+    },
+    {
+      "id": "5174",
+      "name": "mate",
+      "description": "vlwjrq",
+      "price": "52",
+      "src": "https://image.ondacero.es/clipping/cmsimages02/2020/01/31/21C9632F-8DB0-4A03-A3AA-EBE172CC1DA0/103.jpg?crop=1080,810,x100,y0&width=1200&height=900&optimize=low&format=webply",
+      "category": "cafeteria"
+    }
+  ]
 }
