@@ -7,8 +7,20 @@ import Home from "./views/Home";
 import About from './views/About';
 import Login from './views/Login';
 import ErrorScreen from './views/ErrorScreen';
+import {crearProducto} from "./utils/index"
 
 function App() {
+
+  const traerData=async()=>{
+    let product= await crearProducto({
+      "category": "cafetería",
+      "name": "capuchino",
+      "description": "cafe con chocolate y leche",
+      "price": 1800,
+      "src": "35435v4sdwfñieh"
+    },
+  console.log(product))
+  }
 
   return (
     <BrowserRouter>
