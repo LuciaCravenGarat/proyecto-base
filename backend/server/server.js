@@ -1,18 +1,21 @@
 const express = require ("express");
 const cors = require ("cors");
 
+
+//EN ESTE ARCHIVO SE USAN LOS PREFIJOS
 class Server {
     constructor(){
-        this.app=express();
+        this.app=express();//coloco todas las funcionalidades de express en "app". De aquí en adelante, todos los pedidos que se hacen al servidor mediante express, se los hace como "app"
         this.port=8080;
-        this.authPath="/api/auth";
-        this.usersPath="/api/users";
-        this.productsPath="/api/products";
-        this.categoriesPath="/api/categories";
-        this.routes();
+        this.authPath="/api/auth";//rutas autorizadas (recurso para autorizar al usuario si tiene las credenciales solicitadas). API es el PREFIJO
+        this.usersPath="/api/users";//recurso de react
+        this.productsPath="/api/products";//recurso de react
+        this.categoriesPath="/api/categories";//recurso de react
+        this.routes();//función para poder crear las rutas anteriores
     }
     routes(){
-        this.app.use(this.authPath, require("../routes/auth"))
+        this.app.use(this.authPath, require("../routes/auth")); //se usa el método USE para indicar la ruta. En este caso, de authPath. Después se indica que eso se usa desde el módulo de la ruta indicada(donde van a estar las rutas realmente) que es el archivo auth.js (módulo). Por eso se lo requiere
+        this.app.use(this.usersPath, require("../routes/users"));
     }
 
     listen(){
@@ -22,4 +25,4 @@ class Server {
     }
 }
 
-module.exports=Server;
+module.exports = Server;
