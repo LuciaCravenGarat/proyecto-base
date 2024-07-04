@@ -16,6 +16,8 @@ class Server {
     routes(){
         this.app.use(this.authPath, require("../routes/auth")); //se usa el método USE para indicar la ruta. En este caso, de authPath. Después se indica que eso se usa desde el módulo de la ruta indicada(donde van a estar las rutas realmente) que es el archivo auth.js (módulo). Por eso se lo requiere
         this.app.use(this.usersPath, require("../routes/users"));
+        this.app.use(this.productsPath, require("../routes/products"));
+        this.app.use(this.categoriesPath, require("../routes/categories"));
     }
 
     listen(){
