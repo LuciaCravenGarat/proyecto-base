@@ -1,0 +1,16 @@
+{
+  "courses": [
+    {
+      "id": "ea5b",
+      "nombre": "React",
+      "duración": "9 meses",
+      "cantAl": "27"
+    },
+    {
+      "id": "2325",
+      "nombre": "React",
+      "duración": "9 meses",
+      "cantAl": "27"
+    }
+  ]
+}
